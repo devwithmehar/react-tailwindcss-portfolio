@@ -6,6 +6,8 @@ import AppFooter from './components/shared/AppFooter';
 import AppHeader from './components/shared/AppHeader';
 import './css/App.css';
 import UseScrollToTop from './hooks/useScrollToTop';
+import {SingleProjectProvider} from './context/SingleProjectContext.jsx';
+
 
 const About = lazy(() => import('./pages/AboutMe'));
 const Contact = lazy(() => import('./pages/Contact.jsx'));
@@ -26,8 +28,12 @@ function App() {
 							<Route path="/" element={<Home />} />
 							<Route path="projects" element={<Projects />} />
 							<Route
-								path="projects/single-project"
-								element={<ProjectSingle />}
+								path="projects/:projectId"
+								element={
+									<SingleProjectProvider>
+										<ProjectSingle />
+									</SingleProjectProvider>
+								}
 							/>
 
 							<Route path="about" element={<About />} />

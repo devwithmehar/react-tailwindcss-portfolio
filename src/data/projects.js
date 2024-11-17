@@ -1,6 +1,6 @@
 // Import images
-import WebImage1 from '../images/web-project-1.jpg';
-import WebImage2 from '../images/web-project-2.jpg';
+import WebImage1 from '../images/BulkyHome.PNG';
+import WebImage2 from '../images/BlogPostHome.PNG';
 import MobileImage1 from '../images/mobile-project-1.jpg';
 import MobileImage2 from '../images/mobile-project-2.jpg';
 import UIImage1 from '../images/ui-project-1.jpg';
@@ -9,43 +9,26 @@ import UIImage2 from '../images/ui-project-2.jpg';
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Google Health Platform',
+		title: 'Bulky Web',
 		category: 'Web Application',
-		img: WebImage2,
+		img: WebImage1,
 		ProjectHeader: {
-			title: 'Project Management UI - From Context',
-			publishDate: 'Jul 26, 2021',
-			tags: 'UI / Frontend',
+			title: 'Bukly Web - Ecommerce Website',
+			publishDate: '8th November 2024 ',
+			tags: 'Full Stack Development',
 		},
 	},
 	{
 		id: 2,
-		title: 'Phoenix Digital Agency',
-		category: 'Mobile Application',
-		img: MobileImage2,
+		title: 'Blog Poster',
+		category: 'Web Application',
+		img: WebImage2,
 	},
 	{
 		id: 3,
-		title: 'Project Management UI',
-		category: 'UI/UX Design',
+		title: 'My Porfolio',
+		category: 'Web Application',
 		img: UIImage1,
 	},
-	{
-		id: 4,
-		title: 'Cloud Storage Platform',
-		category: 'UI/UX Design',
-		img: UIImage2,
-	},
-	{
-		id: 5,
-		title: 'React Social App',
-		category: 'Mobile Application',
-		img: MobileImage1,
-	},
-	{
-		id: 6,
-		title: 'Apple Design System',
-		category: 'Web Application',
-		img: WebImage1,
-	},
+	
 ];

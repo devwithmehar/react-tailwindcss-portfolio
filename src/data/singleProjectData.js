@@ -2,22 +2,12 @@
 import Image1 from '../images/ui-project-1.jpg';
 import Image2 from '../images/web-project-2.jpg';
 import Image3 from '../images/mobile-project-2.jpg';
-import Image4 from '../images/mobile-project-1.jpg';
-import Image5 from '../images/web-project-1.jpg';
-import Image6 from '../images/ui-project-2.jpg';
-// Import icons
-import {
-	FiFacebook,
-	FiInstagram,
-	FiLinkedin,
-	FiTwitter,
-	FiYoutube,
-} from 'react-icons/fi';
+
 
 export const singleProjectData = {
 	ProjectHeader: {
-		title: 'Project Management UI',
-		publishDate: 'Jul 26, 2021',
+		title: 'Bulky Web',
+		publishDate: 'November 8 2024',
 		tags: 'UI / Frontend',
 	},
 	ProjectImages: [
@@ -35,116 +25,66 @@ export const singleProjectData = {
 			id: 3,
 			title: 'Kabul Project Management UI',
 			img: Image3,
-		},
+		}
 	],
-	ProjectInfo: {
-		ClientHeading: 'About Client',
-		CompanyInfo: [
-			{
-				id: 1,
-				title: 'Name',
-				details: 'Company Ltd',
-			},
-			{
-				id: 2,
-				title: 'Services',
-				details: 'UI Design & Frontend Development',
-			},
-			{
-				id: 3,
-				title: 'Website',
-				details: 'https://company.com',
-			},
-			{
-				id: 4,
-				title: 'Phone',
-				details: '555 8888 888',
-			},
-		],
-		ObjectivesHeading: 'Objective',
-		ObjectivesDetails:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
-		Technologies: [
-			{
-				title: 'Tools & Technologies',
-				techs: [
-					'HTML',
-					'CSS',
-					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
-				],
-			},
-		],
-		ProjectDetailsHeading: 'Challenge',
-		ProjectDetails: [
-			{
-				id: 1,
-				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-			},
-			{
-				id: 2,
-				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-			},
-			{
-				id: 3,
-				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-			},
-			{
-				id: 4,
-				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-			},
-		],
-		SocialSharingHeading: 'Share This',
-		SocialSharing: [
-			{
-				id: 1,
-				name: 'Twitter',
-				icon: <FiTwitter />,
-				url: 'https://x.com/sahil_mehar_10',
-			},
-			{
-				id: 4,
-				name: 'LinkedIn',
-				icon: <FiLinkedin />,
-				url: 'https://www.linkedin.com/in/sahil-mehar/',
-			},
-			{
-				id: 5,
-				name: 'Youtube',
-				icon: <FiYoutube />,
-				url: 'https://www.youtube.com/@sahilmehar5581',
-			},
-		],
-	},
-	RelatedProject: {
-		title: 'Related Projects',
-		Projects: [
-			{
-				id: 1,
-				title: 'Mobile UI',
-				img: Image4,
-			},
-			{
-				id: 2,
-				title: 'Web Application',
-				img: Image5,
-			},
-			{
-				id: 3,
-				title: 'UI Design',
-				img: Image6,
-			},
-			{
-				id: 4,
-				title: 'Kabul Mobile App UI',
-				img: Image3,
-			},
-		],
-	},
-};
+	"projectName": "Bulky",
+  "description": "Bulky is an ASP.NET Core MVC application designed for managing products in a book-related inventory system. This application allows users to perform CRUD operations on various inventory items such as categories, products, and more. It is a full-stack application that integrates backend logic with a frontend user interface for an efficient inventory management experience.",
+  "features": [
+    "Full CRUD operations for inventory management.",
+    "Management of categories, products, and other related entities.",
+    "Search and filter functionality for streamlined inventory access.",
+    "Role-based authentication and authorization for secure access.",
+    "Modern responsive UI for enhanced user experience.",
+    "Integration with a database for persistent storage of inventory data.",
+    "Error handling and validation for user input.",
+    "Backend built using ASP.NET Core MVC with Entity Framework Core.",
+    "Frontend designed with Razor Views and Bootstrap for responsive design.",
+    "Scalable architecture for future feature additions."
+  ],
+  "technologies": {
+    "backend": [
+      "ASP.NET Core MVC",
+      "Entity Framework Core"
+    ],
+    "frontend": [
+      "Razor Views",
+      "Bootstrap",
+      "HTML5",
+      "CSS3"
+    ],
+    "database": [
+      "SQL Server"
+    ],
+    "tools": [
+      "Visual Studio",
+      "Azure App Services (for deployment)",
+      "GitHub (version control)"
+    ]
+  },
+  "keyEntities": [
+    {
+      "name": "Category",
+      "fields": ["Id", "Name", "DisplayOrder", "CreatedDate"]
+    },
+    {
+      "name": "Product",
+      "fields": ["Id", "Title", "Description", "Price", "CategoryId", "ImageUrl", "CreatedDate"]
+    }
+  ],
+  "deployment": {
+    "platform": "Azure App Services",
+    "steps": [
+      "Configure database in Azure SQL Server.",
+      "Deploy application using Visual Studio Publish.",
+      "Ensure proper connection string in appsettings.json for production environment."
+    ]
+  },
+  "targetAudience": "Bookstore owners, inventory managers, and developers interested in learning ASP.NET Core MVC.",
+  "futurePlans": [
+    "Add reporting features for inventory analytics.",
+    "Enable bulk upload of products through Excel/CSV.",
+    "Integrate with payment gateways for direct transactions.",
+    "Develop a mobile-friendly progressive web app (PWA)."
+  ]
+}
+

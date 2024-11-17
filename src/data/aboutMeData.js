@@ -1,7 +1,7 @@
 export const aboutMeData = [
 	{
 		id: 1,
-		bio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+		bio: 'I am a passionate and results-driven Full Stack Developer with expertise in C#, .NET, React, JavaScript, and integrating APIs with third-party applications. With hands-on experience working on diverse projects in various companies across Winnipeg, Canada, I bring real-world problem-solving skills to the table. My academic foundation in Business Information Technology from Red River College equips me with a unique blend of technical expertise and business acumen.',
 	},
 	{
 		id: 2,

@@ -1,6 +1,8 @@
 import Button from '../reusable/Button';
 import FormInput from '../reusable/FormInput';
 import { useState } from 'react';
+import toastr from 'toastr'; // Make sure toastr is installed and imported
+import 'toastr/build/toastr.min.css'; // Include toastr CSS
 
 const ContactForm = () => {
 	const [formData, setFormData] = useState({
@@ -11,6 +13,7 @@ const ContactForm = () => {
 	});
 
 	const [errors, setErrors] = useState({});
+	const [isSubmitting, setIsSubmitting] = useState(false);
 
 	// Validation Function
 	const validateForm = () => {
@@ -55,7 +58,7 @@ const ContactForm = () => {
 		}
 	};
 
-	const onSubmit = (e) => {
+	const onSubmit = async (e) => {
 		e.preventDefault();
 
 		// Validate the form
@@ -66,18 +69,38 @@ const ContactForm = () => {
 			return;
 		}
 
-		// If no errors, log the form data
-		console.log('Form submitted:', formData);
+		setIsSubmitting(true);
 
-		// Clear form values after successful submission
-		setFormData({
-			name: '',
-			email: '',
-			subject: '',
-			message: '',
-		});
-		setErrors({});
-		
+		try {
+			// Make the API call
+			const response = await fetch('http://localhost:8081/contact', {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json',
+				},
+				body: JSON.stringify(formData),
+			});
+
+			const data = await response.json();
+
+			if (data.success) {
+				toastr.success(data.message); // Display toastr notification
+				// Clear form values after successful submission
+				setFormData({
+					name: '',
+					email: '',
+					subject: '',
+					message: '',
+				});
+			} else {
+				toastr.error('Failed to send the message. Please try again.');
+			}
+		} catch (error) {
+			console.error('Error sending message:', error);
+			toastr.error('An error occurred. Please try again later.');
+		} finally {
+			setIsSubmitting(false);
+		}
 	};
 
 	return (
@@ -167,9 +190,10 @@ const ContactForm = () => {
 					{/* Submit Button */}
 					<div className="font-general-medium w-40 px-4 py-2.5 text-white text-center font-medium tracking-wider bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 rounded-lg mt-6 duration-500">
 						<Button
-							title="Send Message"
+							title={isSubmitting ? 'Sending...' : 'Send Message'}
 							type="submit"
 							aria-label="Send Message"
+							disabled={isSubmitting}
 						/>
 					</div>
 				</form>

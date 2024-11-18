@@ -1,7 +1,7 @@
 // Import images
 import WebImage1 from '../images/BulkyHome.PNG';
 import WebImage2 from '../images/BlogPostHome.PNG';
-import MobileImage1 from '../images/mobile-project-1.jpg';
+import PortfolioHome from '../images/portfolioHome.PNG';
 import MobileImage2 from '../images/mobile-project-2.jpg';
 import UIImage1 from '../images/ui-project-1.jpg';
 import UIImage2 from '../images/ui-project-2.jpg';
@@ -28,7 +28,7 @@ export const projectsData = [
 		id: 3,
 		title: 'My Porfolio',
 		category: 'Web Application',
-		img: UIImage1,
+		img: PortfolioHome,
 	},
 	
 ];

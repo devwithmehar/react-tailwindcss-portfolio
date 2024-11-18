@@ -17,9 +17,14 @@ const ProjectGallery = () => {
         alt={project.title}
       />
       <div className="mt-4 text-center">
-        <h3 className="text-lg font-semibold text-white">{project.title}</h3>
-        <p className="text-sm text-gray-300">{project.type}</p>
-      </div>
+  <h3 className="text-lg font-semibold text-primary-dark dark:text-primary-light">
+    {project.title}
+  </h3>
+  <p className="text-sm text-secondary-dark dark:text-secondary-light">
+    {project.type}
+  </p>
+</div>
+
     </div>
   ))}
 </div>

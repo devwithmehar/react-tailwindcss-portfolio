@@ -1,12 +1,17 @@
 # React & TailwindCSS Portfolio - With Dark Mode
 
-A simple portfolio starter theme built with React and Tailwind CSS. This is the React version of [vuejs-tailwindcss-portfolio](https://github.com/realstoman/vuejs-tailwindcss-portfolio).
-
-![React-TailwindCSS-Portfolio](https://user-images.githubusercontent.com/16396664/146666086-28e88beb-c2f0-431f-adfb-2396d8f64c80.png)
+A sleek and modern portfolio theme built using React and Tailwind CSS. This project is inspired by and adapted from the amazing work of [Stoman's Repo](https://github.com/realstoman/react-tailwindcss-portfolio).
 
 ## Demo URL
 
-[https://react-tailwindcss-portfolio.netlify.app](https://react-tailwindcss-portfolio.netlify.app)
+[https://dev.sahilmehar.com/](https://dev.sahilmehar.com/)
+
+## Backend Information
+
+The backend for this portfolio is built using **Node.js** and deployed on AWS Elastic Beanstalk. It handles form submissions and sends emails via AWS SES.
+
+You can read the backend code from the repository:  
+[https://github.com/devwithmehar/portfolio-backend](https://github.com/devwithmehar/portfolio-backend)
 
 ## Other versions of this project
 
@@ -43,51 +48,35 @@ A simple portfolio starter theme built with React and Tailwind CSS. This is the 
 -   [Install it using NVM ](https://github.com/nvm-sh/nvm)
 -   If you're on Mac, Homebrew is a good option too:
 
-```
-brew install node
-```
-
 2. Clone the repo:
 
-```
-git clone https://github.com/realstoman/react-tailwindcss-portfolio.git
-```
-
+ ```bash
+    git clone https://github.com/devwithmehar/react-tailwindcss-portfolio.git
+ ```
 3. Open the project folder:
 
-```
-cd react-tailwindcss-portfolio
-```
+ ```bash
+    cd react-tailwindcss-portfolio
+ ```
 
 4. Install packages and dependencies:
 
-```
-yarn
-```
+ ```bash
+    npm install 
+ ```
 
-4. NOTE: If you don't have yarn installed, you can install it globally using npm:
+5. Start the server locally
 
-```
-npm install --global yarn
-```
+ ```bash
+    npm start
+ ```
 
-5. Start a local dev server at `http://localhost:3000`:
-
-```
-yarn start
-```
-
-6. ##### Run tests:
-
-```
-yarn test
-```
 
 ## Notes
 
 -   Always run `yarn install` after pulling new changes
 -   I'll be constantly updating this repo as I'll be adding more sections to it, so please always check the projects section of this repo to see what tasks are under todo and in progress
--   Coming Soon [I'll be doing a screencast](https://www.youtube.com/realstoman). Soon I'll be uploading a video to my YouTube channel where I'll be going through the process of creating this portoflio
+-   Coming Soon [I'll be doing a screencast](https://www.youtube.com/@sahilmehar5581). Soon I'll be uploading a video to my YouTube channel where I'll be going through the process of creating this portoflio
 -   Illustrations from [unDraw](https://undraw.co) and [Freepik](https://freepik.com)
 -   Images from [Unsplash](https://unsplash.com)
 -   Feel free to use it as your own portfolio

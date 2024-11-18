@@ -13,11 +13,7 @@ The backend for this portfolio is built using **Node.js** and deployed on AWS El
 You can read the backend code from the repository:  
 [https://github.com/devwithmehar/portfolio-backend](https://github.com/devwithmehar/portfolio-backend)
 
-## Other versions of this project
 
--   Next.js Version: [https://github.com/realstoman/nextjs-tailwindcss-portfolio](https://github.com/realstoman/nextjs-tailwindcss-portfolio)
--   Vue.js Version: [https://github.com/realstoman/vuejs-tailwindcss-portfolio](https://github.com/realstoman/vuejs-tailwindcss-portfolio)
--   Nuxt.js Version: [https://github.com/realstoman/nuxtjs-tailwindcss-portfolio](https://github.com/realstoman/nuxtjs-tailwindcss-portfolio)
 
 ## Features
 

@@ -2,7 +2,7 @@
 
 Thank you for considering to contribute to `react-tailwindcss-portfolio` 💖
 
-Please note that this project is released with a [Code of Conduct](https://github.com/devwithmehar/react-tailwindcss-portfolio.git/blob/main/CODE_OF_CONDUCT.md). By participating you agree to abide by its terms.
+Please note that this project is released with a [Code of Conduct](https://github.com/devwithmehar/react-tailwindcss-portfolio/blob/main/CODE_OF_CONDUCT.md). By participating you agree to abide by its terms.
 
 ## Setup
 

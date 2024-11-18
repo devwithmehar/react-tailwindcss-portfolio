@@ -34,7 +34,9 @@ You can read the backend code from the repository:
 -   Download file button
 -   Simple and responsive design
 
-### To Contribute to this project, read the [Contribution Guidlines](https://github.com/realstoman/react-tailwindcss-portfolio/blob/main/CONTRIBUTING.md)
+### To Contribute to this Project
+
+If you'd like to contribute to this project, please refer to the [Contribution Guidelines](https://github.com/devwithmehar/react-tailwindcss-portfolio/blob/main/CONTRIBUTING.md).
 
 ## Setup
 
@@ -80,4 +82,4 @@ You can read the backend code from the repository:
 
 ### License
 
-[MIT](https://github.com/realstoman/react-tailwindcss-portfolio/blob/main/LICENSE)
+This project is licensed under the [MIT License](https://github.com/devwithmehar/react-tailwindcss-portfolio/blob/main/LICENSE).

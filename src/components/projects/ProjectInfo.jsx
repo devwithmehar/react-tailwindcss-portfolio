@@ -24,7 +24,7 @@ const ProjectInfo = () => {
 			<h2 className="text-2xl font-semibold text-secondary-dark dark:text-secondary-light mb-5">
 				Key Features
 			</h2>
-			<ul className="list-disc list-inside text-secondary-dark dark:text-secondary-light space-y-2">
+			<ul className="list-disc list-inside text-secondary-dark dark:text-secondary-light space-y-2 m-2">
 				{singleProjectData.features.map((feature, index) => (
 					<li key={index}>{feature}</li>
 				))}
@@ -68,7 +68,7 @@ const ProjectInfo = () => {
 			</h2>
 			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 				{singleProjectData.keyEntities.map((entity, index) => (
-					<div key={index} className="p-4 border rounded-lg shadow-sm border-gray-300 dark:border-gray-700">
+					<div key={index} className="p-4 m-4 border rounded-lg shadow-sm border-gray-300 dark:border-gray-700">
 						<h3 className="text-lg font-medium text-secondary-dark dark:text-secondary-light mb-3">
 							{entity.name}
 						</h3>

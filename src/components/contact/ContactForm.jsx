@@ -1,8 +1,8 @@
 import Button from '../reusable/Button';
 import FormInput from '../reusable/FormInput';
 import { useState } from 'react';
-import toastr from 'toastr'; // Make sure toastr is installed and imported
-import 'toastr/build/toastr.min.css'; // Include toastr CSS
+import toastr from 'toastr';
+import 'toastr/build/toastr.min.css'; 
 
 const ContactForm = () => {
 	const [formData, setFormData] = useState({
@@ -73,7 +73,7 @@ const ContactForm = () => {
 
 		try {
 			// Make the API call
-			const response = await fetch('http://localhost:8081/contact', {
+			const response = await fetch('http://porfolio-backend-env.eba-gvwg8p74.us-east-1.elasticbeanstalk.com/contact', {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json',
@@ -85,7 +85,7 @@ const ContactForm = () => {
 
 			if (data.success) {
 				toastr.success(data.message); // Display toastr notification
-				// Clear form values after successful submission
+				
 				setFormData({
 					name: '',
 					email: '',

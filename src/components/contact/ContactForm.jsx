@@ -189,12 +189,13 @@ const ContactForm = () => {
 
 					{/* Submit Button */}
 					<div className="font-general-medium w-40 px-4 py-2.5 text-white text-center font-medium tracking-wider bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 rounded-lg mt-6 duration-500">
-						<Button
-							title={isSubmitting ? 'Sending...' : 'Send Message'}
+						<button
 							type="submit"
 							aria-label="Send Message"
 							disabled={isSubmitting}
-						/>
+						>
+							{isSubmitting ? 'Sending...' : 'Send Message'}
+						</button>
 					</div>
 				</form>
 			</div>

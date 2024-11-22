@@ -73,7 +73,7 @@ const ContactForm = () => {
 
 		try {
 			// Make the API call
-			const response = await fetch('http://porfolio-backend-env.eba-gvwg8p74.us-east-1.elasticbeanstalk.com/contact', {
+			const response = await fetch('https://www.meharsahil.com/contact', {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json',

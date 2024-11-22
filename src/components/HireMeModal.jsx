@@ -73,7 +73,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
 
         // Send the form data to the API
         try {
-            const response = await fetch('http://porfolio-backend-env.eba-gvwg8p74.us-east-1.elasticbeanstalk.com/contact', {
+            const response = await fetch('https://www.meharsahil.com/contact', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
